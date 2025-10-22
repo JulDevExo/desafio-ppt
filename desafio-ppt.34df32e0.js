@@ -1115,10 +1115,11 @@ module.exports = module.bundle.resolve("bot\xf3n volver a jugar.144485f8.png") +
 },{}],"7XOPn":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-// Importar imágenes
 parcelHelpers.export(exports, "ScorePage", ()=>ScorePage);
 var _router = require("../router");
 var _state = require("../state");
+// Importar imágenes
+const scoreImg = new URL(require("383894ec47367848")).href;
 function ScorePage() {
     const container = document.createElement("div");
     container.className = "page score-page";
@@ -1160,6 +1161,9 @@ function ScorePage() {
     return container;
 }
 
-},{"../router":"4wVP1","../state":"dWXvP","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["3dtlh","gH3Lb"], "gH3Lb", "parcelRequire0eff", {}, "./", "/")
+},{"../router":"4wVP1","../state":"dWXvP","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","383894ec47367848":"2hYXE"}],"2hYXE":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("score.2d0eaaaf.png") + "?" + Date.now();
+
+},{}]},["3dtlh","gH3Lb"], "gH3Lb", "parcelRequire0eff", {}, "./", "/")
 
 //# sourceMappingURL=desafio-ppt.34df32e0.js.map
