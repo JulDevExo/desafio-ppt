@@ -1,0 +1,14 @@
+{
+  "name": "desafio-ppt",
+  "homepage": "https://github.com/JulDevExo/desafio-ppt",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /desafio-ppt/",
+    "dev": "npm run start && npm run build",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0",
+    "gh-pages": "^6.1.1"
+  }
+}
