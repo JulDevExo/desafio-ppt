@@ -36,7 +36,7 @@ export function WelcomePage(): HTMLElement {
     ".start-button"
   ) as HTMLButtonElement;
   startButton.addEventListener("click", () => {
-    router.navigate("/game");
+    router.navigate("/mode-selection");
   });
 
   return container;

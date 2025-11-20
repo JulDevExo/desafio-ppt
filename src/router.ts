@@ -42,8 +42,11 @@ class Router {
 
   init() {
     // Si la ruta es la raíz, navegar a /welcome
-    if (window.location.pathname === "/") {
-      this.navigate("/welcome");
+    if (
+      window.location.pathname === "/" ||
+      window.location.pathname === "/welcome"
+    ) {
+      this.navigate("/mode-selection");
     } else {
       this.render();
     }
