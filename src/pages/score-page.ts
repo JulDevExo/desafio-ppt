@@ -2,7 +2,7 @@ import { router } from "../router";
 import { state } from "../state";
 
 // Importar imágenes
-const scoreImg = new URL("../images/score.png", import.meta.url).href;
+const scoreImg = new URL("../images/ppt.jpg", import.meta.url).href;
 
 export function ScorePage(): HTMLElement {
   const container = document.createElement("div");
