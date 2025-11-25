@@ -1,4 +1,7 @@
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL =
+  process.env.NODE_ENV === "production"
+    ? "https://desafio-ppt-backend-production.up.railway.app/api"
+    : "http://localhost:3000/api";
 
 export const apiService = {
   // Crear un room
