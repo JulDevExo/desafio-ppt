@@ -1,6 +1,8 @@
 {
   "extends": "@parcel/config-default",
-  "transformers": {
-    "*.{js,mjs,cjs,ts,tsx}": ["@parcel/transformer-typescript-tsc"]
+  "optimizers": {
+    "*.{png,jpg,jpeg,webp,gif,svg}": [],
+    "*.js": ["@parcel/optimizer-terser"],
+    "*.css": ["@parcel/optimizer-css"]
   }
 }
