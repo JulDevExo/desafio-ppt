@@ -3,7 +3,7 @@
   "homepage": "https://desafio-ppt.vercel.app",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /desafio-ppt/",
+    "build": "parcel build src/index.html --public-url /",
     "dev": "npm run start && npm run build",
     "deploy": "npm run build && gh-pages -d dist"
   },
